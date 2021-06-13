@@ -1,0 +1,19 @@
+{
+  "name": "jsdoc-marko",
+  "version": "1.0.0",
+  "description": "Generate API documentation in Markdown from JSDocstring, output in multiple files based on the modules",
+  "main": "app.js",
+  "repository": "https://github.com/rizviews/jsdoc-marko.git",
+  "author": "Rizwan <rizwan582@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "glob": "^7.1.7",
+    "jsdoc-to-markdown": "^7.0.1"
+  }
+}
